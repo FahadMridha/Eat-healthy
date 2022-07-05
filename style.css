@@ -1,0 +1,31 @@
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.half-width img {
+    width: 70%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font: 700;
+}
+
+.name-color {
+    color: coral;
+}
+
+.contact-banner {
+    background-image: url(images/middle\ bg.png);
+}
