@@ -50,7 +50,13 @@ footer {
 }
 
 .p-aline {
-    text-align: justify;
+    word-break: break-all;
+    width: 50%;
+    padding-left: 300px;
+}
+
+.Receipies {
+    width: 95%;
 }
 
 .recipies-items {
@@ -60,6 +66,10 @@ footer {
     margin-right: 5%;
     border-radius: 15px;
     box-shadow: 10px 10px 30px gray;
+}
+
+..recipies-items img {
+    margin-right: 15%;
 }
 
 .online-information {
