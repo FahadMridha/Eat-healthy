@@ -1,3 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+footer {
+    text-align: center;
+    background-color: darkslategray;
+    padding: 10px 30px;
+
+
+}
+
 .flexible-container {
     display: flex;
     margin-bottom: 100px;
@@ -5,7 +19,8 @@
 
 .half-width {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 20px;
+
 }
 
 .half-width img {
@@ -28,4 +43,29 @@
 
 .contact-banner {
     background-image: url(images/middle\ bg.png);
+}
+
+.h1-aline {
+    text-align: center;
+}
+
+.p-aline {
+    text-align: justify;
+}
+
+.recipies-items {
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.online-information {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
 }
